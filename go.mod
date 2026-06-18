@@ -1,8 +1,6 @@
 module github.com/harvester/harvester-cloud-provider
 
-go 1.25.2
-
-toolchain go1.25.7
+go 1.25.7
 
 replace (
 	github.com/google/gnostic-models v0.7.0 => github.com/google/gnostic-models v0.0.0-20250626140709-511df6b89d80
@@ -37,7 +35,7 @@ replace (
 require (
 	github.com/google/go-cmp v0.7.0
 	github.com/harvester/harvester v1.7.1
-	github.com/harvester/harvester-load-balancer v1.7.1
+	github.com/harvester/harvester-load-balancer v1.8.0
 	github.com/rancher/wrangler/v3 v3.2.3-rc.3
 	github.com/sirupsen/logrus v1.9.4
 	github.com/spf13/cobra v1.9.1
