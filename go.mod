@@ -14,21 +14,21 @@ replace (
 	github.com/rancher/lasso => github.com/rancher/lasso v0.0.0-20241202185148-04649f379358
 
 	github.com/rancher/rancher => github.com/rancher/rancher v0.0.0-20250828140533-07a90f09a491
-	github.com/rancher/rancher/pkg/apis => github.com/rancher/rancher/pkg/apis v0.0.0-20250828140533-07a90f09a491
-	github.com/rancher/rancher/pkg/client => github.com/rancher/rancher/pkg/client v0.0.0-20250828140533-07a90f09a491
+	github.com/rancher/rancher/pkg/apis => github.com/rancher/rancher/pkg/apis v0.0.0-20260623174132-bf30ccd1cf8b
+	github.com/rancher/rancher/pkg/client => github.com/rancher/rancher/pkg/client v0.0.0-20260623174132-bf30ccd1cf8b
 
-	k8s.io/api => k8s.io/api v0.33.7
-	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.33.7
-	k8s.io/apimachinery => k8s.io/apimachinery v0.33.7
-	k8s.io/apiserver => k8s.io/apiserver v0.33.7
-	k8s.io/client-go => k8s.io/client-go v0.33.7
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.33.7
-	k8s.io/component-base => k8s.io/component-base v0.33.7
-	k8s.io/component-helpers => k8s.io/component-helpers v0.33.7
-	k8s.io/controller-manager => k8s.io/controller-manager v0.33.7
-	k8s.io/kms => k8s.io/kms v0.33.7
-	k8s.io/kube-openapi => k8s.io/kube-openapi v0.0.0-20250318190949-c8a335a9a2ff
-	k8s.io/kubernetes => k8s.io/kubernetes v1.33.7
+	k8s.io/api => k8s.io/api v0.36.2
+	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.36.2
+	k8s.io/apimachinery => k8s.io/apimachinery v0.36.2
+	k8s.io/apiserver => k8s.io/apiserver v0.36.2
+	k8s.io/client-go => k8s.io/client-go v0.36.2
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.36.2
+	k8s.io/component-base => k8s.io/component-base v0.36.2
+	k8s.io/component-helpers => k8s.io/component-helpers v0.36.2
+	k8s.io/controller-manager => k8s.io/controller-manager v0.36.2
+	k8s.io/kms => k8s.io/kms v0.36.2
+	k8s.io/kube-openapi => k8s.io/kube-openapi v0.0.0-20260624041617-8f3fa4921821
+	k8s.io/kubernetes => k8s.io/kubernetes v1.36.2
 	k8s.io/legacy-cloud-providers => k8s.io/legacy-cloud-providers v0.33.7
 
 	sigs.k8s.io/structured-merge-diff => sigs.k8s.io/structured-merge-diff v0.0.0-20190302045857-e85c7b244fd2
@@ -38,16 +38,16 @@ require (
 	github.com/google/go-cmp v0.7.0
 	github.com/harvester/harvester v1.7.1
 	github.com/harvester/harvester-load-balancer v1.7.1
-	github.com/rancher/wrangler/v3 v3.2.3-rc.3
+	github.com/rancher/wrangler/v3 v3.7.0
 	github.com/sirupsen/logrus v1.9.4
 	github.com/spf13/cobra v1.9.1
 	github.com/spf13/pflag v1.0.10
-	k8s.io/api v0.34.0
-	k8s.io/apimachinery v0.34.0
+	k8s.io/api v0.36.2
+	k8s.io/apimachinery v0.36.2
 	k8s.io/client-go v12.0.0+incompatible
-	k8s.io/cloud-provider v0.33.7
-	k8s.io/component-base v0.34.0
-	k8s.io/klog/v2 v2.130.1
+	k8s.io/cloud-provider v0.36.2
+	k8s.io/component-base v0.36.2
+	k8s.io/klog/v2 v2.140.0
 	kubevirt.io/api v1.7.0
 	kubevirt.io/client-go v1.7.0
 )
